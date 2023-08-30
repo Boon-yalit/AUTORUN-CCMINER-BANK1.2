@@ -1,3 +1,4 @@
+#ยังไม่พร้อมใช้งาน
 # AUTO RUN CCMINER IN TERMUX
 
 * แตะจอค้าง เลือก more
