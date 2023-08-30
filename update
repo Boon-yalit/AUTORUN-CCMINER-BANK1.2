@@ -10,7 +10,7 @@ cd ../etc
 rm -rf mobile-mining 
 cd
 cd ../bin
-rm -rf add-ip edit-miner run-miner make-file
+rm -rf add-ip edit-miner run-miner
 cd
 cd AUTORUN-CCMINER-X1.2 
 chmod +x setupdate.sh
