@@ -55,7 +55,7 @@ def runOffline():
             loads = json.loads(load)
             ip = loads['ip']
 
-        print("\033[93mCONNECT NETWORK\033[00m\n  https://github.com)
+        print("\033[93mCONNECT NETWORK\033[00m\n  https://",ip)
         print("\033[1;34;40m")   
         print("WALLET =",wallet)
         print("NAME   =",name)
