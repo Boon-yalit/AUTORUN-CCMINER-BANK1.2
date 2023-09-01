@@ -14,10 +14,10 @@ try:
 
     os.system(f"cd set-miner && wget -N --timeout 10 --connect-timeout=15 -t 1 https://{ip}/online.json")
     time.sleep(2)
-    from progress.bar import ShadyBar
+    from progress.bar import ChargingBar
 except ImportError:
     pip.main(['install', '--user', 'progress'])
-    from progress.bar import ShadyBar
+    from progress.bar import ChargingBar
 
 try:
     import requests
@@ -94,7 +94,7 @@ def runOffline():
 
 while True:   
     os.system("@cls||clear")
-    with ShadyBar("\033[32m Start Mining\033[00m") as bar:
+    with ChargingBar("\033[32m Start Mining\033[00m") as bar:
         for i in range(100):
             time.sleep(0.02)
             bar.next()
