@@ -94,7 +94,7 @@ def runOffline():
 
 while True:   
     os.system("@cls||clear")
-    with ChargingBar("\033[35m Starting Your Mining\033[00m") as bar:
+    with ChargingBar("\033[35m Starting Your Miner\033[00m") as bar:
         for i in range(100):
             time.sleep(0.02)
             bar.next()
