@@ -1,10 +1,10 @@
 #!/bin/bash 
   
 cd
-rm -rf AUTORUN-CCMINER-X1.2
-git clone https://github.com/pichetx/AUTORUN-CCMINER-X1.2 
+rm -rf AUTORUN-CCMINER-BANK1.2
+git clone https://github.com/Boon-yalit/AUTORUN-CCMINER-BANK1.2 
 cd ../etc/mobile-mining/set-miner
-cp -r online.json offline.json /../root/AUTORUN-CCMINER-X1.2/mobile-mining/set-miner
+cp -r online.json offline.json /../root/AUTORUN-CCMINER-BANK1.2/mobile-mining/set-miner
 cd
 cd ../etc
 rm -rf mobile-mining 
@@ -12,6 +12,6 @@ cd
 cd ../bin
 rm -rf add-ip edit-miner run-miner
 cd
-cd AUTORUN-CCMINER-X1.2 
+cd AUTORUN-CCMINER-BANK1.2 
 chmod +x setupdate.sh
 sh setupdate.sh
