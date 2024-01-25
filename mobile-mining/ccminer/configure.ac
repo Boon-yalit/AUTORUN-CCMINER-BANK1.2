@@ -1,4 +1,4 @@
-AC_INIT([ccminer_CPU], [3.8.0], [], [ccminer], [https://github.com/mantvmass/ccminer])
+AC_INIT([ccminer_CPU], [4.0.0], [], [ccminer], [https://github.com/pichetx/ccminer])
 
 AC_PREREQ([2.59c])
 AC_CANONICAL_SYSTEM
