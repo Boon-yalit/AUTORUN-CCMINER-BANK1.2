@@ -26,9 +26,6 @@ apt-get install wget -y
 apt-get install figlet -y
 apt-get install python3-progress -y
 apt-get install python3-requests -y
-git clone https://github.com/Boon-yalit/FigletFonts
-cd FigletFonts
-make
 
 mv mobile-mining ../../etc
 mv edit-miner ../../bin
