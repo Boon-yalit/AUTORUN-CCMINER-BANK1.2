@@ -1745,7 +1745,7 @@ static bool stratum_gen_work(struct stratum_ctx *sctx, struct work *work)
 		stratum_diff = sctx->job.diff;
 		if (opt_showdiff && work->targetdiff != stratum_diff)
 			snprintf(sdiff, 32, " (%.5f)", work->targetdiff);
-		applog(LOG_WARNING, "\033[1;37;45m INFO   \033[0m" "\033[33mStratum difficulty set to %g%s\033[0m", stratum_diff, sdiff);
+		applog(LOG_WARNING, "\033[1;37;43m NET    \033[0m" "\033[35m New job \033[0m" "\033[33mStratum difficulty set to %g%s\033[0m", stratum_diff, sdiff);
 	}
 
 	return true;
