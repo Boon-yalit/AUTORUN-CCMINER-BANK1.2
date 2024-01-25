@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd
+cd /data/data/com.termux/files 
+tar cvfz backup.tar.gz usr
+cp -r backup.tar.gz /storage/emulated/0/download
+exit && exit
